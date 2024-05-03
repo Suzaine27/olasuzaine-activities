@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color:lightcoral;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px crimson;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+button.operator {
+    background-color: brown;
+}
+
+button.operator:hover {
+
+    background-color:rgb(75, 5, 82);
+}

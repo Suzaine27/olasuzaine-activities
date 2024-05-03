@@ -1,0 +1,27 @@
+body {
+    background-color: brown;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px salmon;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+td {
+    background-color: darksalmon;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 5px;
+}

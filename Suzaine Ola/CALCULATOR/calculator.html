@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/number.js"></script>
+    <script src="js/operation.js"></script>
+    <script src="css/position.css"></script>
+    <script src="css/flex.css"></script>
+
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <input id="number-input" type="text" value="0">
+        <input id="operation-input" type="hidden">
+        <input id="previous" type="hidden">
+
+        <button onclick="number(1)">1</button>
+        <button onclick="number(2)">2</button>
+        <button onclick="number(3)">3</button>
+        <button onlick="operation('+')">+</button>
+    
+        <button onclick="number(4)">4</button>
+        <button onclick="number(5)">5</button>
+        <button onclick="number(6)">6</button>
+        <button onlick="operation('-')">-</button>
+
+        <button onclick="number(7)">7</button>
+        <button onclick="number(8)">8</button>
+        <button onclick="number(9)">9</button>
+        <button onlick="operation('*')">*</button>
+
+        <button onclick="number(0)">0</button>
+        <button onlick="clear()">C</button>
+        <button onlick="equal('=')">=</button>
+        <button onlick="operation('/')">/</button>
+
+    </div>
+</body>
+
+</html>
